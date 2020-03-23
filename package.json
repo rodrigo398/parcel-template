@@ -8,9 +8,13 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.9.0",
     "@babel/preset-react": "^7.9.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.1.0",
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
+    "test": "jest --watchAll",
     "watch": "parcel src/index.html"
   },
   "dependencies": {
